@@ -160,6 +160,12 @@ html{
     margin-bottom: 40px;
     padding: 20px;
 }
+.meme{
+    transition: transform 0.5s;
+}
+.meme:hover{
+    transform: rotateZ(360deg); 
+}
 .answer li{
     margin-right:20px;
 }
