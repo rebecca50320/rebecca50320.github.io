@@ -32,9 +32,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -106,7 +106,7 @@ html{
 /*intro-context*/
 .intro{
     width: 700px;
-    padding: 20px;
+    padding: 40px;
     /* background-color: goldenrod; */
 }
 .intro h3{
@@ -115,9 +115,9 @@ html{
     margin-bottom: 10px;
 }
 .intro p{
-    font-size: 14px;
+    font-size: 18px;
     text-indent:2em;
-    line-height: 1.5;
+    line-height: 2;
 }
 /*intro-link*/
 .link{
@@ -143,7 +143,7 @@ html{
     color:#41422A;
 }
 .ans-container box{
-    display:block;
+    display: block;
     background-color: #e9e2cc;
     width:1000px;
     margin-left: auto;
@@ -151,16 +151,34 @@ html{
     margin-bottom: 40px;
     padding: 20px;
 }
+.ans-container box1{
+    display:flex;
+    background-color: #e9e2cc;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.answer li{
+    margin-right:20px;
+}
+
 .ans-container h3{
     font-size: 20px;
     font-weight:bold;
     margin-bottom: 10px;
 }
 .ans-container p{
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.8;
 }
 
+.ans-container li{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-left: 16px;
+}
 
 
 
