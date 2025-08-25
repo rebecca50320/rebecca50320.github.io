@@ -1,106 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHIU-FANG Application</title>
-    <link rel="icon" href="img/logo.ico">
-    <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rebecca Chen</title>
+    <meta name="description" content="Full-stack web developer specializing in React, Node.js, and cloud infrastructure. Building scalable and innovative software solutions." />
+    <meta name="author" content="John Developer" />
+    <meta name="keywords" content="web developer, full-stack, React, Node.js, JavaScript, TypeScript, portfolio" />
 
-<body>
-    <!-- 頁首 -->
-    <div class="header">
-        <h1>WeHelp 第五屆 Application</h1>
-    </div>
+    <meta property="og:title" content="John Developer - Full-Stack Web Developer Portfolio" />
+    <meta property="og:description" content="Full-stack web developer specializing in React, Node.js, and cloud infrastructure. Building scalable and innovative software solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <!-- /*自我介紹*/ -->
-    <div class="intro-container">
-        <div class="photo">
-            <photo>
-                <img src="img/me.jpg" alt="大頭照">
-            </photo>
-        </div>
-        <div class="intro">
-            <h3>個人簡介</h3>
-            <p>Hi大家好，我是丘舫Rebecca，畢業於台大國企系，三年的工作經驗分別是在軟體科技業和金融業擔任產品經理和商業規劃。因為想成為軟體產品第一線、直接的貢獻者所以想成為軟體工程師。如此直接有效的對產品產生貢獻讓我心生嚮往，且我認為後端工程師站在technical leverage和product leverage的折衷點，既可以透過技術顯著的提升產品效能同時是實現產品功能的重要推手。</p>
-            <div class="link">
-                <div class="icon">
-                    <a href="https://drive.google.com/file/d/10cEcuYYWpmKlWbuFNBIl641cmN1l0cKX/view?usp=sharing" target="_blank"><img src="img/cv.png"></a>
-                </div>
-                <div class="icon">
-                    <a href="https://www.linkedin.com/in/rebecca-chen-陳丘舫-0a2106188" target="_blank"><img src="img/linkedin.png"></a>
-                </div>
-                <div class="icon">
-                    <a href="https://www.facebook.com/profile.php?id=100012865000516&locale=zh_TW" target="_blank"><img src="img/facebook.png"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /*QA*/ -->
-    <div class="ans-container">
-        <div class="box">
-            <box>
-                <h3>為了成為軟體工程師，做過什麼努力？若有具體作品請分享給我們。</h3>
-                <p>作爲徹底的文組生，我第一次拋開恐懼去認識程式是在大學時修了商管程設，學習用python完成特定任務，也是在這堂課讓我意識到寫程式更仰賴的是思考的邏輯和縝密性，而非單純數理能力。畢業的第一份工作我進入了一家資料處理公司當產品經理，為了更快速的驗證資料處理結果是否正確且不倚賴工程師，我自學了基礎的SQL。靠著自己關聯資料表整理出一目了然的報表和發現其中bug讓我獲得很多的成就感，理解DB裡的存有哪些欄位、彼此間如何關聯也讓我和工程團隊講解功能需求時更加順暢；測試階段為了更有效率的回報問題，我學習使用chrome devtools/postman進行初步bug排解，辨別是前端還是後端的問題，以及可能的原因。</p>
-                <p>當轉職工程師的想法在我腦中萌芽，我報名了很多人推薦的神課CS50，從基礎觀念深入淺出的認識這個領域，也在網路上找到Free Code Camp並陸續在上面完成題目。同時也借助當時公司提供的Hahow學習資源上了「用HTML和CSS架設一個網站」，在本次的申請網站中提供裡基礎架構觀念，讓我之後在google做法的時候不會太迷茫。</p>
-            </box>
-            <box>
-                <h3>如果參與這個訓練，會怎麼安排學習時間？</h3>
-                <p>已經安排會全職投入訓練，在接下來半年的時間主要完成三件事：</p>
-                <ul>
-                    <li>完成各週assignment: 首要任務，全職進行所以可以投入全部精力，在跟校友聊過後評估應該除了完成每週任務還會有其他剩餘時間去進行後面兩點</li>
-                    <li>Side-project：在網路有看到人資反應轉職bootcamp的畢業生作品集都類似（Ex電商網站），所以我希望除了第三階段的個人專案之外，在前兩階段loading還沒那麼重的時候同步做一些小型side-project豐富履歷</li>
-                    <li>刷題：就我目前了解，Leetcode上面的題目主要考驗的是資料結構和演算法，是工程師的基本功（尤其我對後端有興趣），雖然訓練第三階段才有放入課表，但透過網路上的課程資源和筆記分享我希望可以提早開始準備，目標是至少寫完Grind75的題目</li>
-                </ul>
-    
-            </box>
-            <box>
-                <h3>是否有想要加入的公司？為什麼想加入該公司？</h3>
-                <p>我目前沒有特定偏好某家公司，但我會以進入一家中型（約百人）、以軟體產品作為公司主要商品的科技公司為目標。選擇中型公司是因爲希望它已有基礎體制(開發流程、code review)讓我可以遵循、開發team有更詳細的分組(Ex 前端/後端/mobile)，且後端組有資深lead可以帶領團隊。除了程式能力累積，我認為轉職初期很重要的是建立良好的co-work習慣，因此太小型的公司我會擔心其專案規模較小、組織體制可能還未完善；太大型的公司則擔心分工太細會只專注在自己的職責而看不到whole picture。初期我會著重在打穩基礎，把之前沒學通的知識補齊，熟悉系統以及相關業務知識；中後期會去進一步了解系統架構、熟悉制度。工作模式上我偏好實體辦公，因為轉職初期會有很多問題，在辦公室可以更有效率地問資深同事，同時比較好觀摩一些工作上的好習慣、好用的小工具並和同事進行交流。我也會多看不同人的程式，並且去辨別好壞，看看哪種寫法好或不好會有什麼問題，自己的話會怎麼寫。</p>
-            </box>
-            <box>
-                <h3>請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</h3>
-                <p>之前在產品上線前我都會壓力特別大特別焦慮，其中分為兩個部分：</p>
-                <p>一個是自己份內工作做不完（測試沒跑完或是文件沒更新完等等），當有很多待辦事項但時間很緊湊的時候我會下意識的想耍廢逃避。當我意識到我在逃避的時候，我會先把待辦事項跟時程表拉出來，將待辦拆解成最小的任務，然後跟自己說現在先完成這一小部分就好。藉由小任務來克服啟動的最大靜摩擦力，比如這次架網站我第一項小任務僅僅是完成頁首頁尾，一但靜下心開始做後反而願意把更多部分完成。</p>
-                <p>另一個部分來自團隊其他事物，比如擔心團隊的開發突然遇到困難造成delay。這種我沒辦法影響局面的焦慮只能靠轉移注意力緩解，我習慣去慢跑，因為跑起來腦袋就沒空想工作、跑完會有多巴安心情就舒緩了、當晚也會睡得好。</p>
-            </box>
-            <box1>
-                <div class="answer">
-                    <h3>關於這份申請網頁，分享一個開發時的技術心得。</h3>
-                    <p>整體心得：growth mindset很重要，都是做中學並持續優化</p>
-                    <ul>
-                        <li>徹底理解梗圖 i don‘t know why it’s working XD 老實說，我對於個html的container層級還沒有融會貫通，css樣式大部分都是每個label都試試看，看呈現效果決定怎麼寫。就目前我已知待改善的部分就有網頁伸縮/手機介面會破版，但我不設height照片會變太大...待優化！ </li>
-                        <li>設計師跟工程師之間的矛盾：我在開始前先用figma拉了設計草圖，許多設計都在時間與技術的限制下被捨棄了XD 比如原先我打算讓自我介紹的block可以釘選，滾動頁面時只有ＱＡ會往下；各問題的開頭原先想設計深色小圓圈標示是第幾題等等…</li>
-                        <li>沒有系統地學習，知識會碎片零散雜亂： 在接觸新領域的時候基本框架很重要，因為這會影響如何在細節上google的關鍵字。我在用github pages上線遇到的問題是我對github的操作太沒概念，當估狗到的文章操作說明和實際狀況不符合時，我無法排除，只好另尋其他文章。只能隱約感覺到前篇文章好像是讓網站以github上面的一個project進行上線；後者是用github帳號本身進行個人網頁的上線（還在研究中）</li>
-                    </ul>
-                </div>
-                <div class="meme">
-                    <img src="img/meme.jpg">
-                </div>
-            </box1>
-            <box>
-                <h3>請用簡短兩三句話，描述對你而言，最重要的一項人際交往原則。</h3>
-                <p>放過別人也放過自己。不要以自己所見所聞所感揣度苛責他人；面對不一樣群體不用急著把自己擠壓進那個框框，柔軟真誠自會遇到有緣人。</p>
-            </box>
-         
-        </div>
-    </div>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-    <!-- /*頁尾*/  -->
-    <div class="footer">
-        <p>© CHIU-FANG REBECCA CHEN 2024. Crafted with Patience & Love</p>
-       
-    </div>
-
-
-  
-   
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
-
-
-
-
-
