@@ -2,13 +2,15 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github, Eye } from 'lucide-react';
+import n8nImage from '@/assets/n8n.png';
+import hpImage from '@/assets/hp.png';
 
 const ProjectsSection = () => {
   const projects = [
     {
       title: "RecruitGenie: AI-powered recruiting tool",
       description: "RecruitGenie is a modular, semi-automated recruiting assistant built in n8n that helps users track full-time job applications, research companies, summarize product and market data, update a Google Sheet tracker, and generate a formatted Google Doc for each company.",
-      image: "/src/assets/n8n.png",
+      image: n8nImage,
       technologies: ["n8n", "Google Cloud OAuth", "OpenAI API", "SerpAPI"],
       liveUrl: "#",
       githubUrl: "#",
@@ -17,7 +19,7 @@ const ProjectsSection = () => {
     {
       title: "Harry Potter Wizarding Simulation",
       description: "Wizard Spellcasting Simulation combines gesture recognition and voice recognition to let users cast spells with hand motions and spoken commands, triggering immersive visual and sound effects.",
-      image: "/src/assets/hp.png",
+      image: hpImage,
       technologies: ["PyAudio", "OpenCV", "Whisper", "MediaPipe","Pygame","Tkinter"],
       liveUrl: "#",
       githubUrl: "#",
