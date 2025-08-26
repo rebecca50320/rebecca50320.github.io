@@ -13,7 +13,7 @@ const ProjectsSection = () => {
       image: n8nImage,
       technologies: ["n8n", "Google Cloud OAuth", "OpenAI API", "SerpAPI"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/rebecca50320/RecruitGenie",
       featured: true
     },
     {
@@ -22,7 +22,7 @@ const ProjectsSection = () => {
       image: hpImage,
       technologies: ["PyAudio", "OpenCV", "Whisper", "MediaPipe","Pygame","Tkinter"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/rebecca50320/Spellcasting-Simulation",
       featured: true
     },
     {
@@ -74,10 +74,9 @@ const ProjectsSection = () => {
             <h2 className="text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6">
               Featured Projects
             </h2>
-            <div className="w-24 h-1 bg-gradient-hero mx-auto rounded-full"></div>
-            <p className="text-lg text-muted-foreground mt-6 max-w-2xl mx-auto">
-              Here are some of my recent projects that showcase my skills in full-stack development,
-              UI/UX design, and modern web technologies.
+            <div className="w-48 h-1 bg-gradient-hero mx-auto rounded-full"></div>
+            <p className="text-lg text-muted-foreground mt-6 max-w-3xl mx-auto">
+            As a product manager, I thrive on getting hands-on with AI tools and building side projects 🤓
             </p>
           </div>
 
